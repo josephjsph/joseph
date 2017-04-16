@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TelaEditText"></activity>
+        <activity android:name=".TelaEditText" />
+        <activity android:name=".TelaData"></activity>
     </application>
 
 </manifest>
