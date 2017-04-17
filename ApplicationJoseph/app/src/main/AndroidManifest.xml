@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TelaEditText" />
-        <activity android:name=".TelaData"></activity>
+        <activity android:name=".TelaData" />
+        <activity android:name=".TelaTextView"></activity>
     </application>
 
 </manifest>

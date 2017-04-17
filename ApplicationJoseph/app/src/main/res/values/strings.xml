@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Application Joseph</string>
+
+    <string name="TxtTelaTexeView1">Application Joseph</string>
+    <string name="TxtTelaTexeView2">Application Joseph</string>
+    <string name="TxtTelaTexeView3">Application Joseph</string>
 </resources>

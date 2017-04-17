@@ -5,13 +5,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ActivityPrincipal extends AppCompatActivity {
+public class ActivityPrincipal extends AppCompatActivity
+{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
     }
+
+    //chamar tela text view
+    public void OnClcTelaEditText (View view)
+    {
+        Intent intencaoTelaTextView = new Intent(getApplication(), TelaTextView.class);
+        startActivity(intencaoTelaTextView);
+    }
+
 
     //chamar tela de editar texto
     public void OnClcEdtText (View view)
