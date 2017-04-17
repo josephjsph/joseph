@@ -15,6 +15,13 @@ public class ActivityPrincipal extends AppCompatActivity
     }
 
     //chamar tela text view
+    public void OnClcTelaImage (View view)
+    {
+        Intent intencaoTelaImage = new Intent(getApplication(), TelaImage.class);
+        startActivity(intencaoTelaImage);
+    }
+
+    //chamar tela text view
     public void OnClcTelaEditText (View view)
     {
         Intent intencaoTelaTextView = new Intent(getApplication(), TelaTextView.class);

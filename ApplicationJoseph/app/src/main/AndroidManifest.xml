@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".TelaEditText" />
         <activity android:name=".TelaData" />
-        <activity android:name=".TelaTextView"></activity>
+        <activity android:name=".TelaTextView" />
+        <activity android:name=".TelaImage"></activity>
     </application>
 
 </manifest>
