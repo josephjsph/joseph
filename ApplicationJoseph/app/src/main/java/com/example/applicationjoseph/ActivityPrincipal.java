@@ -19,4 +19,10 @@ public class ActivityPrincipal extends AppCompatActivity {
         Intent intencaoTelaEditText = new Intent(getApplication(),TelaEditText.class);
         startActivity(intencaoTelaEditText);
     }
+    //chamar tela data
+    public void OnClcTelaData (View view)
+    {
+        Intent intencaoTelaData = new Intent(getApplication(),TelaData.class);
+        startActivity(intencaoTelaData);
+    }
 }
