@@ -13,15 +13,21 @@ public class ActivityPrincipal extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
     }
+    //chamar tela radio button
+    public void OnClcTelaRadioButton (View view)
+    {
+        Intent intencaoTelaRadioButton = new Intent(getApplication(), TelaRadioButton.class);
+        startActivity(intencaoTelaRadioButton);
+    }
 
-    //chamar tela text view
+    //chamar tela text checkBox
     public void OnClcTelaCheckBox (View view)
     {
         Intent intencaoTelaCheckBox = new Intent(getApplication(), TelaCheckBox.class);
         startActivity(intencaoTelaCheckBox);
     }
 
-    //chamar tela text view
+    //chamar tela text image
     public void OnClcTelaImage (View view)
     {
         Intent intencaoTelaImage = new Intent(getApplication(), TelaImage.class);

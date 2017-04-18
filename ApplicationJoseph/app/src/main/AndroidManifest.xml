@@ -20,7 +20,8 @@
         <activity android:name=".TelaData" />
         <activity android:name=".TelaTextView" />
         <activity android:name=".TelaImage" />
-        <activity android:name=".TelaCheckBox"></activity>
+        <activity android:name=".TelaCheckBox" />
+        <activity android:name=".TelaRadioButton"></activity>
     </application>
 
 </manifest>
