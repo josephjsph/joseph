@@ -4,4 +4,13 @@
     <string name="TxtTelaTexeView1">Application Joseph</string>
     <string name="TxtTelaTexeView2">Application Joseph</string>
     <string name="TxtTelaTexeView3">Application Joseph</string>
+
+    <string-array name="Estado_Civil">
+        <item>Solteiro</item>
+        <item>Casado</item>
+        <item>Separaso</item>
+        <item>Divorciado</item>
+    </string-array>
+
+
 </resources>

@@ -21,7 +21,8 @@
         <activity android:name=".TelaTextView" />
         <activity android:name=".TelaImage" />
         <activity android:name=".TelaCheckBox" />
-        <activity android:name=".TelaRadioButton"></activity>
+        <activity android:name=".TelaRadioButton" />
+        <activity android:name=".TelaSpiner"></activity>
     </application>
 
 </manifest>

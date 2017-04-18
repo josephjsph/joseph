@@ -13,6 +13,14 @@ public class ActivityPrincipal extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
     }
+
+    //chamar tela spiner
+    public void OnClcTelaSpiner (View view)
+    {
+        Intent intencaoTelaspiner = new Intent(getApplication(), TelaSpiner.class);
+        startActivity(intencaoTelaspiner);
+    }
+
     //chamar tela radio button
     public void OnClcTelaRadioButton (View view)
     {
