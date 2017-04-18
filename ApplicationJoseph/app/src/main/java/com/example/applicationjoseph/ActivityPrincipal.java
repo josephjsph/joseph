@@ -15,6 +15,13 @@ public class ActivityPrincipal extends AppCompatActivity
     }
 
     //chamar tela text view
+    public void OnClcTelaCheckBox (View view)
+    {
+        Intent intencaoTelaCheckBox = new Intent(getApplication(), TelaCheckBox.class);
+        startActivity(intencaoTelaCheckBox);
+    }
+
+    //chamar tela text view
     public void OnClcTelaImage (View view)
     {
         Intent intencaoTelaImage = new Intent(getApplication(), TelaImage.class);

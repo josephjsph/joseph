@@ -19,7 +19,8 @@
         <activity android:name=".TelaEditText" />
         <activity android:name=".TelaData" />
         <activity android:name=".TelaTextView" />
-        <activity android:name=".TelaImage"></activity>
+        <activity android:name=".TelaImage" />
+        <activity android:name=".TelaCheckBox"></activity>
     </application>
 
 </manifest>
