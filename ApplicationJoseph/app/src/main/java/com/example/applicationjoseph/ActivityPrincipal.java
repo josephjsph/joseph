@@ -19,6 +19,14 @@ public class ActivityPrincipal extends AppCompatActivity
     {
         Intent intencaoTelaspiner = new Intent(getApplication(), TelaSpiner.class);
         startActivity(intencaoTelaspiner);
+
+    }
+
+    //chamar tela seekbar
+    public void OnClcTelaSeekBar (View view)
+    {
+        Intent intencaoTelaSeekBar = new Intent(getApplication(), TelaSeekBar.class);
+        startActivity(intencaoTelaSeekBar);
     }
 
     //chamar tela radio button
