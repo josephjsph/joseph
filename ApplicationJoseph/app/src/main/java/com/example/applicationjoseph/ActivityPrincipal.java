@@ -22,6 +22,13 @@ public class ActivityPrincipal extends AppCompatActivity
 
     }
 
+    //chamar tela intentsBrowser
+    public void OnClcTelaIntentsBrowser (View view)
+    {
+        Intent intencaoTelaIntentsBrowser = new Intent(getApplication(), TelaIntentsBrowser.class);
+        startActivity(intencaoTelaIntentsBrowser);
+    }
+
     //chamar tela seekbar
     public void OnClcTelaSeekBar (View view)
     {
