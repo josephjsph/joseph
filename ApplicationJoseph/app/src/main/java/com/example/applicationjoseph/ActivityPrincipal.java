@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class ActivityPrincipal extends AppCompatActivity
 {
@@ -12,6 +13,20 @@ public class ActivityPrincipal extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
+
+
+        //chamando a activity de outra forma
+        Button chamarActivity = (Button) findViewById(R.id.btnActivity2);
+        chamarActivity.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent OutraActivity = (new Intent(ActivityPrincipal.this, TelaIntentsActivity.class));
+                startActivity(OutraActivity);
+            }
+        });
+
     }
 
     //chamar tela spiner
