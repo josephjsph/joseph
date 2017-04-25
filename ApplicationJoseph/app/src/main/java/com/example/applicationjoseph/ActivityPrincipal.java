@@ -23,6 +23,7 @@ public class ActivityPrincipal extends AppCompatActivity
             public void onClick(View v)
             {
                 Intent OutraActivity = (new Intent(ActivityPrincipal.this, TelaIntentsActivity.class));
+
                 startActivity(OutraActivity);
             }
         });

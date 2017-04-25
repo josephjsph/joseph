@@ -25,7 +25,8 @@
         <activity android:name=".TelaSpiner" />
         <activity android:name=".TelaSeekBar" />
         <activity android:name=".TelaIntentsBrowser" />
-        <activity android:name=".TelaIntentsActivity"></activity>
+        <activity android:name=".TelaIntentsActivity" />
+        <activity android:name=".TelaRecebeEnviaParametro"></activity>
     </application>
 
 </manifest>
