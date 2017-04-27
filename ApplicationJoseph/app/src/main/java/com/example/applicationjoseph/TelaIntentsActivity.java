@@ -14,17 +14,37 @@ public class TelaIntentsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_intents);
 
+        //Passando parametros com bundle
         final EditText parametro = (EditText) findViewById(R.id.editTextParametro);
         Button enviarParametro = (Button) findViewById(R.id.BtnEnviarParametro);
         enviarParametro.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
+            public void onClick(View v) {
                 Intent IntencaoParametro = new Intent(TelaIntentsActivity.this, TelaRecebeEnviaParametro.class);
-                IntencaoParametro.putExtra("NomeDoParametro", parametro.getText().toString());
+
+                Bundle dados = new Bundle();
+                dados.putString("NomeDoParametro", parametro.getText().toString());
+                dados.putInt("idade", 20);
+
+                IntencaoParametro.putExtras(dados);
                 startActivity(IntencaoParametro);
             }
         });
+
+
+        //forma simples de passar parametros
+
+//        final EditText parametro = (EditText) findViewById(R.id.editTextParametro);
+//        Button enviarParametro = (Button) findViewById(R.id.BtnEnviarParametro);
+//        enviarParametro.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v)
+//            {
+//                Intent IntencaoParametro = new Intent(TelaIntentsActivity.this, TelaRecebeEnviaParametro.class);
+//                IntencaoParametro.putExtra("NomeDoParametro", parametro.getText().toString());
+//                startActivity(IntencaoParametro);
+//            }
+//        });
 
     }
 }
