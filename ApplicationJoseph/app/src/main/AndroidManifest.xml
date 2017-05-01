@@ -26,7 +26,12 @@
         <activity android:name=".TelaSeekBar" />
         <activity android:name=".TelaIntentsBrowser" />
         <activity android:name=".TelaIntentsActivity" />
-        <activity android:name=".TelaRecebeEnviaParametro"></activity>
+        <activity android:name=".TelaRecebeEnviaParametro" />
+        <activity
+            android:name=".TelaMenu"
+            android:label="@string/title_activity_tela_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TelaFragmento"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/tools">
     <string name="app_name">Application Joseph</string>
 
     <string name="TxtTelaTexeView1">Application Joseph</string>
@@ -11,6 +11,11 @@
         <item>Separaso</item>
         <item>Divorciado</item>
     </string-array>
+    <string name="title_activity_tela_menu">TelaMenu </string>
+    <string name="op_o_do_menu_1">menu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

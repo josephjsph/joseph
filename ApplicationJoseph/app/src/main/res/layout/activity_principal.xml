@@ -138,4 +138,27 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTelaSpiner" />
 
+    <Button
+        android:id="@+id/btnTelaMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="0dp"
+        android:text="Menu"
+        android:onClick="OnClcTelaMenu"
+        app:layout_constraintLeft_toRightOf="@+id/btnActivity2"
+        app:layout_constraintTop_toBottomOf="@+id/btnTelaSeekBar" />
+
+    <Button
+        android:id="@+id/btnTelaFragmento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="-1dp"
+        android:text="Fragmento"
+        android:onClick="OnClcTelaFragmento"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/btnTelaMenu"
+        app:layout_constraintTop_toBottomOf="@+id/btnTelaIntentsBrowser" />
+
 </android.support.constraint.ConstraintLayout>

@@ -52,4 +52,15 @@
         android:textSize="22dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnParametroComRetorno"
+        android:layout_width="238dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:text="Envio e Retorno de parametro"
+        app:layout_constraintLeft_toRightOf="@+id/BtnEnviarParametro"
+        app:layout_constraintTop_toBottomOf="@+id/editTextParametro"
+        tools:layout_editor_absoluteX="194dp" />
 </android.support.constraint.ConstraintLayout>

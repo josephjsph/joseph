@@ -30,6 +30,22 @@ public class ActivityPrincipal extends AppCompatActivity
 
     }
 
+
+    //chamar tela Fragmento
+    public void OnClcTelaFragmento (View view)
+    {
+        Intent intencaoTelaFragmento = new Intent(getApplication(), TelaFragmento.class);
+        startActivity(intencaoTelaFragmento);
+
+    }
+
+    //chamar tela Menu
+    public void OnClcTelaMenu (View view)
+    {
+        Intent intencaoTelaMenu = new Intent(getApplication(), TelaMenu.class);
+        startActivity(intencaoTelaMenu);
+
+    }
     //chamar tela spiner
     public void OnClcTelaSpiner (View view)
     {
