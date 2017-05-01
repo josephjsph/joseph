@@ -31,7 +31,11 @@
             android:name=".TelaMenu"
             android:label="@string/title_activity_tela_menu"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".TelaFragmento"></activity>
+        <activity android:name=".TelaFragmento" />
+        <activity
+            android:name=".TelaMenuDeslisante"
+            android:label="@string/title_activity_tela_menu_deslisante"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

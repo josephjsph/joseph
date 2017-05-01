@@ -29,6 +29,13 @@ public class ActivityPrincipal extends AppCompatActivity
         });
 
     }
+    //chamar tela Menu Deslisante
+    public void OnClcTelaMenuDeslisante (View view)
+    {
+        Intent intencaoTelaMenuDeslisante = new Intent(getApplication(), TelaMenuDeslisante.class);
+        startActivity(intencaoTelaMenuDeslisante);
+
+    }
 
 
     //chamar tela Fragmento

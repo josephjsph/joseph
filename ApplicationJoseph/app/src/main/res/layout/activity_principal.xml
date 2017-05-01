@@ -161,4 +161,16 @@
         app:layout_constraintLeft_toRightOf="@+id/btnTelaMenu"
         app:layout_constraintTop_toBottomOf="@+id/btnTelaIntentsBrowser" />
 
+    <Button
+        android:id="@+id/btnTelaMenuDeslisante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="Menu Deslisante"
+        android:onClick="OnClcTelaMenuDeslisante"
+        android:textSize="7sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActivity2" />
+
 </android.support.constraint.ConstraintLayout>
