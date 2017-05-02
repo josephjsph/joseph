@@ -40,7 +40,7 @@
         android:id="@+id/btnTelaData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
+        android:layout_marginLeft="19dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="15dp"
         android:onClick="OnClcTelaData"
@@ -52,7 +52,7 @@
         android:id="@+id/btnTelaTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="176dp"
+        android:layout_marginLeft="148dp"
         android:layout_marginStart="176dp"
         android:layout_marginTop="15dp"
         android:onClick="OnClcTelaEditText"
@@ -76,25 +76,27 @@
         android:id="@+id/btnTelaCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
+        android:layout_marginLeft="19dp"
         android:onClick="OnClcTelaCheckBox"
         android:text="CheckBox"
         android:textSize="12sp"
         app:layout_constraintLeft_toRightOf="@+id/btnTelaImage"
         app:layout_constraintTop_toBottomOf="@+id/btnTelaData"
-        android:layout_marginStart="44dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="0dp" />
 
     <Button
         android:id="@+id/btnRadioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="176dp"
+        android:layout_marginLeft="148dp"
         android:onClick="OnClcTelaRadioButton"
         android:text="RadioButton"
         android:textSize="9sp"
         app:layout_constraintLeft_toRightOf="@+id/btnTelaImage"
         app:layout_constraintTop_toBottomOf="@+id/btnTelaTextView"
-        android:layout_marginStart="176dp" />
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="0dp" />
 
     <Button
         android:id="@+id/btnTelaSpiner"
@@ -111,23 +113,25 @@
         android:id="@+id/btnTelaSeekBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
+        android:layout_marginLeft="19dp"
         android:onClick="OnClcTelaSeekBar"
         android:text="SeekBar"
         app:layout_constraintLeft_toRightOf="@+id/btnTelaSpiner"
         app:layout_constraintTop_toBottomOf="@+id/btnTelaCheckBox"
-        android:layout_marginStart="44dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="0dp" />
 
     <Button
         android:id="@+id/btnTelaIntentsBrowser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
+        android:layout_marginLeft="41dp"
         android:onClick="OnClcTelaIntentsBrowser"
         android:text="Browser"
         app:layout_constraintLeft_toRightOf="@+id/btnTelaSeekBar"
         app:layout_constraintTop_toBottomOf="@+id/btnRadioButton"
-        android:layout_marginStart="44dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="0dp" />
 
     <Button
         android:id="@+id/btnActivity2"
@@ -144,46 +148,49 @@
         android:id="@+id/btnTelaMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
+        android:layout_marginLeft="19dp"
         android:onClick="OnClcTelaMenu"
         android:text="Menu"
         app:layout_constraintLeft_toRightOf="@+id/btnActivity2"
         app:layout_constraintTop_toBottomOf="@+id/btnTelaSeekBar"
-        android:layout_marginStart="44dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="0dp" />
 
     <Button
         android:id="@+id/btnTelaFragmento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
+        android:layout_marginLeft="41dp"
         android:onClick="OnClcTelaFragmento"
         android:text="Fragmento"
         android:textSize="10sp"
         app:layout_constraintLeft_toRightOf="@+id/btnTelaMenu"
         app:layout_constraintTop_toBottomOf="@+id/btnTelaIntentsBrowser"
-        android:layout_marginStart="44dp" />
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="0dp" />
 
     <Button
         android:id="@+id/btnTelaMenuDeslisante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
         android:onClick="OnClcTelaMenuDeslisante"
         android:text="Menu Deslisante"
         android:textSize="7sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnActivity2"
-        android:layout_marginStart="16dp" />
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toRightOf="@+id/btnTelaTextView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnTelaLayouts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="44dp"
-        android:layout_marginTop="0dp"
         android:text="Layouts"
         android:onClick="OnClcTelaLayouts"
         app:layout_constraintLeft_toRightOf="@+id/btnTelaMenuDeslisante"
-        app:layout_constraintTop_toBottomOf="@+id/btnTelaMenu" />
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>

@@ -29,6 +29,16 @@ public class ActivityPrincipal extends AppCompatActivity
         });
 
     }
+
+
+    //chamar tela layouts
+    public void OnClcTelaLayouts (View view)
+    {
+        Intent intencaoTelaLayouts = new Intent(getApplication(), TelaLayouts.class);
+        startActivity(intencaoTelaLayouts);
+
+    }
+
     //chamar tela Menu Deslisante
     public void OnClcTelaMenuDeslisante (View view)
     {
