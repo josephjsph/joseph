@@ -4,12 +4,17 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class TelaListViewCustomizado extends AppCompatActivity {
+import static android.R.attr.id;
+
+public class TelaListViewCustomizado extends AppCompatActivity
+{
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -18,12 +23,33 @@ public class TelaListViewCustomizado extends AppCompatActivity {
         setContentView(R.layout.activity_tela_list_view_customizado);
 
         ListView lista = (ListView) findViewById(R.id.lvEscolas);
-        ArrayList<Escola> escolas = adicionarEscolas();
+        final ArrayList<Escola> escolas = adicionarEscolas();
         ArrayAdapter adapter = new EscolaAdapter(this, escolas);
         lista.setAdapter(adapter);
 
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> AdapterView, View view, int position, long id)
+            {
+                //Toast.makeText(getBaseContext(), "Escola :" , Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), "Escola :" + escolas.get(position).getNome(), Toast.LENGTH_LONG).show();
+
+                // passar como parâmetro para outra activity
+
+                Intent PassarParâmetro = new Intent(TelaListViewCustomizado.this, TelaMenu.class);
+                PassarParâmetro.putExtra("nome", escolas.get(position).getNome());
+                startActivity(PassarParâmetro);
+
+
+            }
+
+
+        });
+
 
     }
+
+
 
 
 

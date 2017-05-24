@@ -1,5 +1,6 @@
 package com.example.applicationjoseph;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -7,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.View;
+import android.widget.TextView;
 
 public class TelaMenu extends AppCompatActivity {
 
@@ -16,6 +18,12 @@ public class TelaMenu extends AppCompatActivity {
         setContentView(R.layout.activity_tela_menu);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //recebendo parametro da tela de listView customuzado
+        Intent ReceberParametro = getIntent();
+        String parametro = (String) ReceberParametro.getSerializableExtra("nome");
+        TextView nome = (TextView) findViewById(R.id.TextReceberParametro);
+        nome.setText(parametro);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
