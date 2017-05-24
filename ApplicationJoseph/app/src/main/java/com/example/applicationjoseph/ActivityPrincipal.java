@@ -30,6 +30,7 @@ public class ActivityPrincipal extends AppCompatActivity
 
     }
 
+    //chamar tela layouts
 
     //chamar tela layouts
     public void OnClcTelaLayouts (View view)
@@ -125,5 +126,11 @@ public class ActivityPrincipal extends AppCompatActivity
     {
         Intent intencaoTelaData = new Intent(getApplication(),TelaData.class);
         startActivity(intencaoTelaData);
+    }
+
+    public void OnClcTelaListView(View view)
+    {
+        Intent intencaoTelaListView = new Intent(getApplication(), TelaListView.class);
+        startActivity(intencaoTelaListView);
     }
 }

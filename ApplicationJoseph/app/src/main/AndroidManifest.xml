@@ -37,7 +37,9 @@
             android:label="@string/title_activity_tela_menu_deslisante"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TelaLayouts" />
-        <activity android:name=".TelaTableLayout"></activity>
+        <activity android:name=".TelaTableLayout" />
+        <activity android:name=".TelaListView" />
+        <activity android:name=".TelaListViewCustomizado"></activity>
     </application>
 
 </manifest>

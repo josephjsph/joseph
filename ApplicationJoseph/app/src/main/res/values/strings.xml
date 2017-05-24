@@ -23,5 +23,21 @@
 
     <string name="action_settings">Settings</string>
 
+    <string-array name="Equipes">
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>McLaren</item>
+        <item>williams</item>
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>McLaren</item>
+        <item>williams</item>
+        <item>Mercedes</item>
+        <item>Ferrari</item>
+        <item>McLaren</item>
+        <item>williams</item>
+
+    </string-array>
+
 
 </resources>
