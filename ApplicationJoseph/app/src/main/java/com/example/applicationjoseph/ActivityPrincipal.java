@@ -30,7 +30,13 @@ public class ActivityPrincipal extends AppCompatActivity
 
     }
 
-    //chamar tela layouts
+    //chamar tela principal 2
+    public void OnClcTelaPrincipal2 (View view)
+    {
+        Intent intencaoTelaPrincipal2 = new Intent(getApplication(), ActivityPrincipal2.class);
+        startActivity(intencaoTelaPrincipal2);
+
+    }
 
     //chamar tela layouts
     public void OnClcTelaLayouts (View view)

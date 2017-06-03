@@ -12,8 +12,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="44dp"
+        android:layout_width="235dp"
+        android:layout_height="42dp"
         android:text="Página Principal"
         android:textAlignment="center"
         android:textSize="25dp"
@@ -196,5 +196,16 @@
         app:layout_constraintTop_toBottomOf="@+id/btnTelaFragmento"
         app:layout_constraintLeft_toRightOf="@+id/btnTelaLayouts"
         android:layout_marginLeft="44dp" />
+
+    <Button
+        android:id="@+id/btnProximaTela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Avançar"
+        android:onClick="OnClcTelaPrincipal2"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

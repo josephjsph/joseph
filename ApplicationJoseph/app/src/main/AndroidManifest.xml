@@ -39,7 +39,12 @@
         <activity android:name=".TelaLayouts" />
         <activity android:name=".TelaTableLayout" />
         <activity android:name=".TelaListView" />
-        <activity android:name=".TelaListViewCustomizado"></activity>
+        <activity android:name=".TelaListViewCustomizado" />
+        <activity
+            android:name=".ActivityPrincipal2"
+            android:label="@string/title_activity_principal2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TelaSharedPreferences"></activity>
     </application>
 
 </manifest>

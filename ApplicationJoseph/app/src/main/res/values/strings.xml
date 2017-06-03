@@ -38,6 +38,7 @@
         <item>williams</item>
 
     </string-array>
+    <string name="title_activity_principal2">ActivityPrincipal2</string>
 
 
 </resources>
