@@ -39,6 +39,10 @@
 
     </string-array>
     <string name="title_activity_principal2">ActivityPrincipal2</string>
+    <string name="title_activity_list_sql_lite">ListSqlLite</string>
+    <string name="nome_do_livro">Nome do Livro</string>
+    <string name="ano">Ano</string>
+    <string name="autor">Autor</string>
 
 
 </resources>

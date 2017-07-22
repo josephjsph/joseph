@@ -8,4 +8,17 @@
     tools:context="com.example.applicationjoseph.ActivityPrincipal2"
     tools:showIn="@layout/activity_principal2">
 
+    <ListView
+        android:id="@+id/lvLivros"
+        android:layout_width="343dp"
+        android:layout_height="393dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="56dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteX="5dp">
+
+
+    </ListView>
+
 </android.support.constraint.ConstraintLayout>

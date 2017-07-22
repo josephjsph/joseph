@@ -10,13 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
-        
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Joseph"
             />
-
 
 
     </android.support.design.widget.AppBarLayout>
@@ -29,20 +28,44 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+    <include
+        android:id="@+id/include2"
+        layout="@layout/content_activity_principal2"
+        android:layout_height="wrap_content"
+         />
+
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_weight="1"
-        android:text="Shared Preferences"
         android:onClick="OnclcTelaSharedPreferences"
+        android:text="Shared Preferences"
         app:layout_anchor="@+id/include2"
         app:layout_anchorGravity="top|left" />
 
-    <include
-        android:id="@+id/include2"
-        layout="@layout/content_activity_principal2"
-        android:layout_height="525dp" />
+    <Button
+        android:id="@+id/btnTelaSqlLite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:gravity="center_vertical"
+        android:onClick="OnClcTelaSqlLite"
+        android:text="SqlLITE"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="top|center_horizontal" />
+
+    <Button
+        android:id="@+id/btnTelaRealm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_weight="1"
+        android:width="1dp"
+        android:text="Realm"
+        android:onClick="OnClcTelaRealm"
+        app:layout_anchor="@+id/include2"
+        app:layout_anchorGravity="top|right" />
 
 </android.support.design.widget.CoordinatorLayout>
